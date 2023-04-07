@@ -1,0 +1,104 @@
+/*desde aca configuracion general del proyecto*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.home{
+    width: 100vw;
+    background-color: rgb(182, 157, 157);
+    position: relative;
+}
+/*barra de navegacion*/
+.navbar{
+    font-size: 30px;
+    background-color: rgb(78, 145, 207);
+    display: flex;
+    justify-content: space-between;
+    padding: 2mm;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    
+}.menu li{
+    list-style: none;
+}.menu a{
+    text-decoration: none;
+    color:lightsteelblue;
+}
+.menu a:hover{
+    cursor: pointer;
+    color: lightslategray;
+    transition: ease-in-out .2s;
+
+}
+.brand{
+    color: black;
+}.brand span{
+    color: lightsteelblue;
+}
+/*home*/
+.home{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    
+}
+.imgHome{
+    display: flex;
+    margin-left: 70px;
+    height: 600px;
+    width: 400px;
+}
+.txt{
+    color: black;
+    font-size: 50px;
+    display: flex;
+    margin-left: 70px;
+    justify-content: center
+}
+/*about me*/
+.aboutMe{
+    background-color: bisque;
+    position: relative;
+}
+.img{
+    margin: 15px;
+    height: 250px;
+    width: 250px;
+}
+/*projects*/
+.projects{
+    background-color: rgb(222, 184, 127);
+    position: relative;
+
+}
+.projects figure{
+    margin-left: 70px;
+}
+.projectsImg{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+/*contact Me*/
+.contactMe{
+    background-color: antiquewhite;
+    display: flex;
+    position: relative;
+}
+.icon{
+    width: 200px;
+}
+.wave{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
